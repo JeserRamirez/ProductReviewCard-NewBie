@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap");
+
+/* CSS Variables */
+:host {
+  --light-font: "Montserrat", sans-serif;
+  --product: "Fraunces", serif;
+
+  /* Primary */
+
+  --darkcyan: hsl(158, 36%, 37%);
+  --cream: hsl(30, 38%, 92%);
+
+  /* Neutral */
+
+  --verydarkblue: hsl(212, 21%, 14%);
+  --darkgrayishblue: hsl(228, 12%, 48%);
+  --gray: hsl(232.5, 5.97%, 73.73%);
+  --white: hsl(0, 0%, 100%);
+
+  --lightgreen: hsl(157.39, 36.51%, 37.06%);
+}
+
+/* Styles */
+.category {
+  font-family: var(--darkgrayishblue);
+  font-weight: 500;
+  font-style: normal;
+  letter-spacing: 0.3rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.product-name {
+  font-family: var(--product);
+  color: var(--verydarkblue);
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.description {
+  font-family: var(--light-font);
+  color: var(--darkgrayishblue);
+  font-weight: 500;
+}
+
+.new-price {
+  font-family: var(--product);
+  font-weight: 700;
+  color: var()
+}
+
+.old-price {
+  font-family: var(--product);
+  font-weight: 700;
+  color: var(--gray);
+  text-decoration: line-through;
+  text-decoration-thickness: 0.08rem;
+}
+
+.button {
+  background-color: var(--lightgreen);
+  cursor: pointer;
+}
