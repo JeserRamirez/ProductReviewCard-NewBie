@@ -4,7 +4,6 @@ import {
   Component,
   Input,
   input,
-  OnInit,
 } from '@angular/core';
 
 @Component({
@@ -25,7 +24,7 @@ import {
   styleUrl: './button.component.css',
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export default class ButtonComponent implements OnInit {
+export default class ButtonComponent {
   public title = input.required<string>();
 
   public imgPath = input.required<string>();
@@ -34,8 +33,4 @@ export default class ButtonComponent implements OnInit {
   public hover!: string;
 
   isHovering = false;
-
-  ngOnInit(): void {
-    console.log(this.hover);
-  }
 }
