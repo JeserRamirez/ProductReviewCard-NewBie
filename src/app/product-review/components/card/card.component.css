@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap");
 
 /* CSS Variables */
 :host {
@@ -46,7 +46,7 @@
 .new-price {
   font-family: var(--heavy-font);
   font-weight: 700;
-  color: var()
+  color: var(--lightgreen);
 }
 
 .old-price {
